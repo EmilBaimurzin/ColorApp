@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_main"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5"
+        android:id="@+id/horizontalLine"/>
+
+    <com.colorful.game.core.library.CustomImageButton
+        android:id="@+id/buttonStart"
+        android:layout_width="260dp"
+        android:layout_height="130dp"
+        android:src="@drawable/button_start"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.colorful.game.core.library.CustomImageButton
+        android:id="@+id/buttonExit"
+        android:layout_width="260dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/button_exit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/horizontalLine" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

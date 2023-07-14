@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_dialog"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="300dp">
+
+        <com.colorful.game.core.library.CustomImageButton
+            android:id="@+id/redButton"
+            android:background="@drawable/button_red"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"/>
+
+        <com.colorful.game.core.library.CustomImageButton
+            android:id="@+id/yellowButton"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/button_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"/>
+
+        <com.colorful.game.core.library.CustomImageButton
+            android:id="@+id/greenButton"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/button_green"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"/>
+
+        <com.colorful.game.core.library.CustomImageButton
+            android:layout_marginTop="6dp"
+            android:id="@+id/blueButton"
+            android:background="@drawable/button_blue"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="30dp"/>
+
+    </LinearLayout>
+
+    <com.colorful.game.core.library.CustomImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:src="@drawable/button_close"/>
+
+</FrameLayout>

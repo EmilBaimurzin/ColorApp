@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:background="@drawable/bg_item"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/imgBlue"
+        android:padding="7dp"
+        android:visibility="gone"
+        android:src="@drawable/img_blue_character"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imgRed"
+        android:padding="7dp"
+        android:visibility="gone"
+        android:src="@drawable/img_red_character"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imgYellow"
+        android:padding="7dp"
+        android:visibility="gone"
+        android:src="@drawable/img_yellow_character"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imgGreen"
+        android:padding="7dp"
+        android:visibility="gone"
+        android:src="@drawable/img_green_character"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imgBulletLeft"
+        android:padding="7dp"
+        android:visibility="gone"
+        android:src="@drawable/img_bullet_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imgBulletRight"
+        android:padding="7dp"
+        android:visibility="gone"
+        android:src="@drawable/img_bullet_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
